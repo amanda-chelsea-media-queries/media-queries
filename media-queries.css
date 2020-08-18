@@ -77,7 +77,7 @@ footer{
     display: flex;
     align-items: flex-end;
     margin: 6em 1em 1em 1em;
-    bottom: 0;
+    /*bottom: 0;*/
     position: absolute;
 }
 /* Small devices (phones and pocket devices, 576 and up) */
