@@ -3,16 +3,18 @@
 }
 body {
     margin: 1em;
+    font-family: 'Roboto', sans-serif;
 }
 .alert-info>a {
     background-color: lightblue;
-    /*border: solid lightgray 2px;*/
+    border: solid lightgray 2px;
     display: block;
     height: 3em;
     line-height: 3em;
     text-align: center;
     text-decoration: none;
     color: #000000;
+    margin: 1em;
 }
 
 h1 {
@@ -39,18 +41,31 @@ nav>ul>li>a {
 img {
     width: 100%;
     height: 100%;
+    margin: 1em;
+    /*height: 100%;*/
+    /*margin: calc(100%-2em);*/
     /*size: 100vw;*/
     /*width: 100vh;*/
     /*height: 100vh;*/
 }
 section {
-    margin: 0;
+    margin: 1em;
 }
 #main>h2{
     padding: 0;
+    font-weight: bolder;
 }
-
-
+.sub-section>h2{
+    font-weight: bolder;
+}
+.sub-section{
+    font-style: italic;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    margin: 6em 1em 1em 1em;
+}
 /* Small devices (phones and pocket devices, 576 and up) */
 @media screen and (min-width:576px) { /* ... */ }
 
