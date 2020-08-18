@@ -110,10 +110,17 @@ body {
     nav>ul>li>a{
         background-color: #FFFFFF;
     }
+    ul.nav-links{
+        display: inline;
+        float: right;
+    }
     h1{
         text-align: left;
         /*display: inline-block;*/
         display: inline;
+        margin-top: 3em;
+        font-size: 5em;
+
     }
     h2{
         margin: 0;
@@ -123,20 +130,26 @@ body {
     }
     section {
         display: inline-block;
+        width: 60%;
     }
     .main {
-        width: 60%;
+        /*width: 60%;*/
+        line-height: 1.5em;
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+    }
+    .sub-section {
+        /*display: inline-block;*/
+        /*width: 35%;*/
         line-height: 1.5em;
         /*display: flex;*/
         /*flex-direction: column;*/
         /*justify-content: center;*/
     }
     .sub-section {
-        width: 35%;
-        line-height: 1.5em;
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*justify-content: center;*/
+       /*display: inline-block;*/
+        /*margin-top: 2em;*/
     }
-
 }
