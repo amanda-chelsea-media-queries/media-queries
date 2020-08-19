@@ -42,7 +42,12 @@ body {
         margin: 1em;
         font-size: 1.5em;
     }
-
+nav > ul > li > a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 5px;
+}
     .header-img > img {
         width: 100%;
         height: 100%;
