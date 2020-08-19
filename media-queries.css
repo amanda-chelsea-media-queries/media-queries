@@ -90,8 +90,10 @@ body {
         /*align-items: flex-end;*/
         margin: 6em 1em 1em 1em;
         bottom: auto;
-        position: absolute;
+        /*position: absolute;*/
         width: 100%;
+        display: flex;
+        align-items: center;
     }
 
 /* Large devices (desktops, 992px and up) */
@@ -101,6 +103,7 @@ body {
     }
     nav {
         background-color: #FFFFFF;
+        float: right;
     }
     nav>ul{
         display: flex;
@@ -120,8 +123,9 @@ body {
         text-align: left;
         /*display: inline-block;*/
         display: inline;
-        margin-top: 3em;
+        /*margin-top: 3em;*/
         font-size: 5em;
+        float: left;
 
     }
     h2{
@@ -130,22 +134,11 @@ body {
         line-height: 1.5em;
         height: 1.5em;
     }
-    section {
-        display: block;
-        /*height: 3em;*/
-        /*line-height: 3em;*/
-        /*width: 60%;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        /*justify-content: space-evenly;*/
-        /*align-content: space-between;*/
-        /*align-items: flex-start;*/
-        /*background-color: chartreuse;*/
 
-    }
     .main{
-        width: 60%;
-        background-color: lightblue;
+        float: left;
+        width: 58%;
+        /*background-color: lightblue;*/
     }
     /*.main>p, .main>h2 {*/
     /*    width: 60%;*/
@@ -160,8 +153,10 @@ body {
         /*justify-content: center;*/
 
 .sub-section {
+    float: right;
     width: 35%;
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
+    margin-top: 1em;
 }
     /*.sub-section>p, .sub-section>h2 {*/
     /*    !*display: inline-block;*!*/
@@ -177,7 +172,18 @@ body {
     /*   !*display: inline-block;*!*/
     /*    !*margin-top: 2em;*!*/
     /*}*/
+    footer {
+        clear: both;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
+
 #social-media-links>ul{
     padding: 0;
     margin: 0;
